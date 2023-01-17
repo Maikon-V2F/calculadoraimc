@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <h1>Calculadora de IMC</h1>
+    <div id="texto">
+        <p>IMC significa Índice de Massa Corporal e trata-se de uma medida do peso de cada pessoa, sendo uma relação
+            entre a massa da pessoa e a sua altura ao quadrado. <br><br>
+
+            A partir desse cálculo é possível avaliar se a pessoa está com um peso ideal ou se está abaixo ou acima do
+            peso. Tanto níveis abaixo, como níveis acima do peso ideal, podem oferecer riscos à saúde do indivíduo. <br><br>
+
+            Esta é uma medida de referência internacional reconhecida pela OMS (Organização Mundial da Saúde). É um
+            cálculo simples para avaliar o peso, porém não mede diretamente a gordura corporal, já que não contempla a
+            massa magra, massa gorda, líquidos e a estrutura óssea da pessoa em questão.</p>
+    </div>
+
+    <div id="inputs">
+        <p>Seu peso em quilos:</p>
+        <input type="number" name="peso" id="peso" placeholder="0">
+        <p>Sua altura em centímetros:</p>
+        <input type="number" name="altura" id="altura" placeholder="0">
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
